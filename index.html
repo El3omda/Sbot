@@ -48,8 +48,41 @@
   <body>
     <div id="app" style="text-align: center">
       <h1>Smarta Bot</h1>
-      <a style="font-weight: bold;" href="connect.html">تشغيل البوت</a>
+      <img src="" alt="QR Code" id="qrcode" />
+      <ul style="list-style: none; font-weight: bold" class="logs">
+        <li></li>
+      </ul>
     </div>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var socket = io();
+
+        socket.on("message", function (msg) {
+          $(".logs li").text(msg);
+        });
+
+        socket.on("qr", function (src) {
+          $("#qrcode").attr("src", src);
+          $("#qrcode").show();
+        });
+
+        socket.on("ready", function (data) {
+          $("#qrcode").hide();
+        });
+
+        socket.on("authenticated", function (data) {
+          $("#qrcode").hide();
+        });
+      });
+    </script>
   </body>
 </html>

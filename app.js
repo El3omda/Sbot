@@ -40,7 +40,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.sendFile("connect.html", {
+  res.sendFile("index.html", {
     root: __dirname,
   });
 });
@@ -65,7 +65,7 @@ const client = new Client({
 
 // Support No
 
-const supportNo = phoneNumberFormatter('201202716895');
+const supportNo = phoneNumberFormatter('966507610054');
 
 
 client.on("message", (msg) => {
