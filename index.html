@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>سمارتا لحلول المنزل الذكي</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Cairo", sans-serif;
+        padding: 20px;
+      }
+      #app {
+        max-width: 500px;
+        margin: 20px auto;
+      }
+      #qrcode {
+        display: none; /* Showed when qr code received */
+        width: 100%;
+        margin: 10px 0;
+        border: 1px solid #efefef;
+        border-radius: 4px;
+      }
+      ul.logs {
+        max-height: 150px;
+        padding: 15px 15px 15px 30px;
+        margin-top: 5px;
+        border-radius: 4px;
+        overflow-y: auto;
+        background: #efefef;
+        color: #666;
+        font-size: 14px;
+      }
+      ul.logs li:first-child {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" style="text-align: center">
+      <h1>Smarta Bot</h1>
+      <a style="font-weight: bold;" href="connect.html">تشغيل البوت</a>
+    </div>
+
+  </body>
+</html>
