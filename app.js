@@ -91,10 +91,10 @@ client.on("message", (msg) => {
       {
         title: "برمجة",
       },
-      {
-        title: "شراء منتجات",
-        id: "test-4",
-      },
+      // {
+      //   title: "شراء منتجات",
+      //   id: "test-4",
+      // },
       {
         title: "أخري",
         id: "test-5",
@@ -266,7 +266,7 @@ client.on("message", (msg) => {
   } else if (msg.body == "برمجة") {
     client.sendMessage(msg._data.from, list7);
   } else if (msg.body == "شراء منتجات") {
-    msg.reply("تفضل بزيارة متجرنا الالكتروني :\n رابط المتجر");
+    // msg.reply("تفضل بزيارة متجرنا الالكتروني :\n رابط المتجر");
   }
 
   if (msg.body == "أخري") {
