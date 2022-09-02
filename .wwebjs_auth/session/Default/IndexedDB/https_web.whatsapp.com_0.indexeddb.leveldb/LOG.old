@@ -1,0 +1,5 @@
+2022/09/02-18:34:42.495 dc4 Creating DB C:\xampp\htdocs\WhatsBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2022/09/02-18:34:42.717 dc4 Reusing MANIFEST C:\xampp\htdocs\WhatsBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/02-18:37:43.310 bf4 Level-0 table #5: started
+2022/09/02-18:37:43.674 bf4 Level-0 table #5: 1179566 bytes OK
+2022/09/02-18:37:43.705 bf4 Delete type=0 #3
