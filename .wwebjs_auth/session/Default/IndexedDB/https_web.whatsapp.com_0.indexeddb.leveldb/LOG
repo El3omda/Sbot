@@ -1,3 +1,6 @@
-2022/09/04-10:10:35.359 1630 Reusing MANIFEST C:\xampp\htdocs\WhatsBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/09/04-10:10:35.406 1630 Recovering log #7
-2022/09/04-10:10:35.518 1630 Reusing old log C:\xampp\htdocs\WhatsBot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000007.log 
+2022/09/24-09:41:25.031 1bb4 Reusing MANIFEST C:\xampp\htdocs\Sbot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/24-09:41:25.032 1bb4 Recovering log #22
+2022/09/24-09:41:25.229 1bb4 Reusing old log C:\xampp\htdocs\Sbot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000022.log 
+2022/09/24-09:41:25.230 1bb4 Delete type=2 #19
+2022/09/24-09:41:25.230 1bb4 Delete type=2 #21
+2022/09/24-09:41:25.230 1bb4 Delete type=2 #23
